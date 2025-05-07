@@ -39,3 +39,15 @@ Merges are sequential within each merge, but parallel across each level. So the 
 is a single merge per level, growing in size each time.
 
 Thus the span is : $\Theta(1 + 2 + 4 + ... + n) = \Theta(n)$
+
+- Referenced https://www.geeksforgeeks.org/merge-sort-using-multi-threading/ for writing code and runtime analysis.
+All code is written by me.
+
+- Referenced https://nodejs.org/api/worker_threads.html for documentation on multithreading in javascript
+
+- Referenced https://www.geeksforgeeks.org/node-js-worker-threads/ for documentation on multithreading in javascript
+
+- Referenced previous mergesort-aijun-hall-uwyo repo assignment, and borrowed certain code snippets from past
+mergesort work
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
