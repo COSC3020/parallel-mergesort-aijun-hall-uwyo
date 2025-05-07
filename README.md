@@ -15,7 +15,7 @@ It may help to consider the DAG of the parallel program.
 
 <hr>
 
-I chose to make a parallel version of my iterative in-place merge sort from `parallel-mergesort-aijun-hall-uwyo`
+I chose to make a parallel version of my iterative in-place merge sort from `mergesort-aijun-hall-uwyo`
 
 My approach parallelizes each level of merging across the array.
 
